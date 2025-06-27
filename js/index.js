@@ -31,7 +31,8 @@ let searchInput = document.getElementById("search");
 async function getUserLocation() {
   let res = await fetch("https://ipapi.co/json/");
   let data = await res.json();
-  getApi(data.city);
+  getApi(data.region);
+  
 }
 getUserLocation();
 

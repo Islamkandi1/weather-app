@@ -29,7 +29,7 @@ let row = document.getElementById("row");
 let searchInput = document.getElementById("search");
 // get user location=======================
 async function getUserLocation() {
-  let res = await fetch("http://ip-api.com/json/");
+  let res = await fetch("https://ipapi.co/json/");
   let data = await res.json();
   getApi(data.city);
 }

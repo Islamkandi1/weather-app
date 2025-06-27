@@ -1,6 +1,6 @@
 // get Api key and baseUrl====================
 let apiKey = "8c4be7c8bee0497f995212233252506";
-let basUrl = "http://api.weatherapi.com/v1/forecast.json?";
+let basUrl = "https://api.weatherapi.com/v1/forecast.json?";
 let date = new Date();
 let days = [
   "sunday",

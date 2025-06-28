@@ -164,7 +164,7 @@ function displayTomorrowDay(data) {
     
     `;
 
-  row.innerHTML += weatherBox;
+  addElement(weatherBox)
 }
 
 // after tomorrow day======================================================
@@ -210,9 +210,12 @@ function displayAfterTomorrowDay(data) {
           </section>
     
     `;
+  addElement(weatherBox)
+}
+// add element to the row=============================
+function addElement(weatherBox){
   row.innerHTML += weatherBox;
 }
-
 // search =========================================
 
 searchInput.addEventListener("input", () => {
